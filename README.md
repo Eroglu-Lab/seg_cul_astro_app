@@ -4,7 +4,7 @@
 1. Install the latest version of MATLAB
 1. Go to the folder ‘seg_cul_astrocyte_app’ and double click ‘seg_astro.mlapp’
 1. A new window will pop-out, the first row of the left panel is for input the image data (Input the two channels separately), the second row and the third row are for the detection. 
-[insert image 1]
+![insert image 1](https://github.com/Eroglu-Lab/seg_cul_astro_app/blob/main/readme_images/readme_img_1.png)
 1. After loading the data, a folder will be automatically created along side the image data, where the resulted will be stored.
 [insert image 2]
 [insert image 3]
