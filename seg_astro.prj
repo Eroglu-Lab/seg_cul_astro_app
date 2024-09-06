@@ -1,0 +1,115 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1098764792" file="F:\eroglu_lab\seg_cul_astrocyte_app\seg_astro.prj" location="F:\eroglu_lab\seg_cul_astrocyte_app" name="seg_astro" target="target.mlapps" target-name="Package App">
+    <param.appname>seg_astro</param.appname>
+    <param.authnamewatermark>Boyu Lyu</param.authnamewatermark>
+    <param.email>boyu93@vt.edu</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>A tool for segmentation of main/ fine branches for the cultured astrocyte</param.description>
+    <param.screenshot>C:\Users\boyu9\AppData\Local\Temp\tp83c2877d_0cb9_4f92_8d88_3301e761d64e.png</param.screenshot>
+    <param.version>1.5</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>5faf5ffb-19d8-4809-b318-b5c677653d02</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\seg_astro.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\detect_astrocyte_v1.m</file>
+      <file>${PROJECT_ROOT}\detect_orderStatistics_pia.m</file>
+      <file>${PROJECT_ROOT}\findRealBranch.m</file>
+      <file>${PROJECT_ROOT}\gen_score.m</file>
+      <file>${PROJECT_ROOT}\genCompartmentWideThin.m</file>
+      <file>${PROJECT_ROOT}\genCompartmentWideThin_update.m</file>
+      <file>${PROJECT_ROOT}\genCompartmentWideThin_update2.m</file>
+      <file>${PROJECT_ROOT}\genScore_branch.m</file>
+      <file>${PROJECT_ROOT}\ksegments_orderstatistics_fin.m</file>
+      <file>${PROJECT_ROOT}\mito_detect.m</file>
+      <file>${PROJECT_ROOT}\quantify_branch.m</file>
+      <file>${PROJECT_ROOT}\quantifyx.m</file>
+      <file>${PROJECT_ROOT}\recoverBPregion.m</file>
+      <file>${PROJECT_ROOT}\refineLayer1Compartment2.m</file>
+      <file>${PROJECT_ROOT}\refineWideCompartment.m</file>
+      <file>${PROJECT_ROOT}\regionGrowMatrix.m</file>
+      <file>${PROJECT_ROOT}\regionGrowxx.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="F:\eroglu_lab" name="seg_cul_astrocyte_app" optional="false">F:\eroglu_lab\seg_cul_astrocyte_app</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
